@@ -1,53 +1,47 @@
 {
-    "Leites_e_Derivados": {
-        "Leite_integral_desnatado_ou_semidesnatado": {
-            "lactose_por_100ml": "4.8g a 5g"
-        },
-        "Leite_sem_lactose": {
-            "lactose_por_100ml": "0g"
-        },
-        "Iogurte_natural": {
-            "lactose_por_100g": "4g a 6g"
-        },
-        "Queijos_frescos": {
-            "exemplo": "ricota, cottage, queijo minas",
-            "lactose_por_100g": "2g a 4g"
-        },
-        "Queijos_maturados": {
-            "exemplo": "parmesão, grana padano, gouda, cheddar",
-            "lactose_por_100g": "<0.5g a 2g"
-        },
-        "Manteiga": {
-            "lactose_por_100g": "0.1g a 0.8g"
-        }
+    "Leite_integral_desnatado_ou_semidesnatado": {
+        "lactose_por_100ml": "4.8g a 5g"
     },
-    "Doces_e_Sobremesas": {
-        "Leite_condensado": {
-            "lactose_por_100g": "10g a 12g"
-        },
-        "Creme_de_leite": {
-            "lactose_por_100g": "2g a 3g"
-        },
-        "Sorvetes_de_leite": {
-            "lactose_por_100g": "4g a 6g"
-        },
-        "Chocolate_ao_leite": {
-            "lactose_por_100g": "8g a 10g"
-        },
-        "Chocolate_meio_amargo_ou_amargo": {
-            "lactose_por_100g": "0g a 5g"
-        }
+    "Leite_sem_lactose": {
+        "lactose_por_100ml": "0g"
     },
-    "Outros_Produtos": {
-        "Pao_de_forma_comum": {
-            "lactose_por_fatia": "0.5g a 1g"
-        },
-        "Margarinas_com_leite": {
-            "lactose_por_porção": "0.1g a 1g"
-        },
-        "Molhos_industrializados": {
-            "exemplo": "maionese, molho branco",
-            "lactose_por_porção": "1g a 4g"
-        }
+    "Iogurte_natural": {
+        "lactose_por_100g": "4g a 6g"
+    },
+    "Queijos_frescos": {
+        "exemplo": "ricota, cottage, queijo minas",
+        "lactose_por_100g": "2g a 4g"
+    },
+    "Queijos_maturados": {
+        "exemplo": "parmesão, grana padano, gouda, cheddar",
+        "lactose_por_100g": "<0.5g a 2g"
+    },
+    "Manteiga": {
+        "lactose_por_100g": "0.1g a 0.8g"
+    },
+    "Leite_condensado": {
+        "lactose_por_100g": "10g a 12g"
+    },
+    "Creme_de_leite": {
+        "lactose_por_100g": "2g a 3g"
+    },
+    "Sorvetes_de_leite": {
+        "lactose_por_100g": "4g a 6g"
+    },
+    "Chocolate_ao_leite": {
+        "lactose_por_100g": "8g a 10g"
+    },
+    "Chocolate_meio_amargo_ou_amargo": {
+        "lactose_por_100g": "0g a 5g"
+    },
+    "Pao_de_forma_comum": {
+        "lactose_por_fatia": "0.5g a 1g"
+    },
+    "Margarinas_com_leite": {
+        "lactose_por_porção": "0.1g a 1g"
+    },
+    "Molhos_industrializados": {
+        "exemplo": "maionese, molho branco",
+        "lactose_por_porção": "1g a 4g"
     }
 }
