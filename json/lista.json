@@ -1,47 +1,171 @@
 {
     "Leite_integral_desnatado_ou_semidesnatado": {
-        "lactose_por_100ml": "4.8g a 5g"
-    },
-    "Leite_sem_lactose": {
-        "lactose_por_100ml": "0g"
+        "1": {
+            "min": "4.8",
+            "max": "5"
+        },
+        "2": {
+            "min": "2.4",
+            "max": "2.5"
+        },
+        "3": {
+            "min": "1.2",
+            "max": "1.25"
+        }
     },
     "Iogurte_natural": {
-        "lactose_por_100g": "4g a 6g"
+        "1": {
+            "min": "4",
+            "max": "6"
+        },
+        "2": {
+            "min": "2",
+            "max": "3"
+        },
+        "3": {
+            "min": "1",
+            "max": "1.5"
+        }
     },
     "Queijos_frescos": {
-        "exemplo": "ricota, cottage, queijo minas",
-        "lactose_por_100g": "2g a 4g"
+        "1": {
+            "min": "2",
+            "max": "4"
+        },
+        "2": {
+            "min": "1",
+            "max": "2"
+        },
+        "3": {
+            "min": "0.5",
+            "max": "1"
+        }
     },
     "Queijos_maturados": {
-        "exemplo": "parmesão, grana padano, gouda, cheddar",
-        "lactose_por_100g": "<0.5g a 2g"
+        "1": {
+            "min": "0.5",
+            "max": "2"
+        },
+        "2": {
+            "min": "0.25",
+            "max": "1"
+        },
+        "3": {
+            "min": "0.125",
+            "max": "0.5"
+        }
     },
     "Manteiga": {
-        "lactose_por_100g": "0.1g a 0.8g"
+        "1": {
+            "min": "0.1",
+            "max": "0.8"
+        },
+        "2": {
+            "min": "0.005",
+            "max": "0.4"
+        },
+        "3": {
+            "min": "0.0025",
+            "max": "0.2"
+        }
     },
     "Leite_condensado": {
-        "lactose_por_100g": "10g a 12g"
+        "1": {
+            "min": "10",
+            "max": "12"
+        },
+        "2": {
+            "min": "5",
+            "max": "6"
+        },
+        "3": {
+            "min": "2.5",
+            "max": "3"
+        }
     },
     "Creme_de_leite": {
-        "lactose_por_100g": "2g a 3g"
+        "1": {
+            "min": "2",
+            "max": "3"
+        },
+        "2": {
+            "min": "1",
+            "max": "1.5"
+        },
+        "3": {
+            "min": "0.5",
+            "max": "0.75"
+        }
     },
     "Sorvetes_de_leite": {
-        "lactose_por_100g": "4g a 6g"
+        "1": {
+            "min": "4",
+            "max": "6"
+        },
+        "2": {
+            "min": "2",
+            "max": "3"
+        },
+        "3": {
+            "min": "1",
+            "max": "1.5"
+        }
     },
     "Chocolate_ao_leite": {
-        "lactose_por_100g": "8g a 10g"
+        "1": {
+            "min": "8",
+            "max": "10"
+        },
+        "2": {
+            "min": "4",
+            "max": "5"
+        },
+        "3": {
+            "min": "2",
+            "max": "2.5"
+        }
     },
     "Chocolate_meio_amargo_ou_amargo": {
-        "lactose_por_100g": "0g a 5g"
+        "1": {
+            "min": "0",
+            "max": "5"
+        },
+        "2": {
+            "min": "0",
+            "max": "2.5"
+        },
+        "3": {
+            "min": "0",
+            "max": "1.25"
+        }
     },
     "Pao_de_forma_comum": {
-        "lactose_por_fatia": "0.5g a 1g"
+        "1": {
+            "min": "0.5",
+            "max": "1"
+        },
+        "2": {
+            "min": "0.25",
+            "max": "0.5"
+        },
+        "3": {
+            "min": "0.125",
+            "max": "0.25"
+        }
     },
     "Margarinas_com_leite": {
-        "lactose_por_porção": "0.1g a 1g"
-    },
-    "Molhos_industrializados": {
-        "exemplo": "maionese, molho branco",
-        "lactose_por_porção": "1g a 4g"
+        "lactose_por_porção": "0.1g a 1g",
+        "1": {
+            "min": "0.1",
+            "max": "1"
+        },
+        "2": {
+            "min": "0.05",
+            "max": "0.5"
+        },
+        "3": {
+            "min": "0.025",
+            "max": "0.25"
+        }
     }
 }
