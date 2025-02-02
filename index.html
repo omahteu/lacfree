@@ -74,189 +74,221 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-12">
-                        <div class="bg-light rounded h-5 p-4">
-                            <h6 class="mb-4">Selecione os itens que você vai consumir</h6>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite integral | 100ml</label>
+                        <form action="" method="post" id="itemForm">
+                            <!-- Leite integral -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <h6 class="mb-4">Selecione os itens que você vai consumir</h6>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_100" id="leite_integral100">
+                                    <label class="form-check-label" for="leite_integral100">Leite integral | 100ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_50" id="leite_integral50">
+                                    <label class="form-check-label" for="leite_integral50">Leite integral | 50ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_25" id="leite_integral25">
+                                    <label class="form-check-label" for="leite_integral25">Leite integral | 25ml</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Leite integral | 50ml</label>
+
+                            <!-- Leite desnatado -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_100" id="leite_desnatado100">
+                                    <label class="form-check-label" for="leite_desnatado100">Leite desnatado | 100ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_50" id="leite_desnatado50">
+                                    <label class="form-check-label" for="leite_desnatado50">Leite desnatado | 50ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="leite_25" id="leite_desnatado25">
+                                    <label class="form-check-label" for="leite_desnatado25">Leite desnatado | 25ml</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite integral | 25ml</label>
+
+                            <!-- Leite semidesnatado -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ls100" id="leite_semi100">
+                                    <label class="form-check-label" for="leite_semi100">Leite semidesnatado | 100ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ls50" id="leite_semi50">
+                                    <label class="form-check-label" for="leite_semi50">Leite semidesnatado | 50ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ls25" id="leite_semi25">
+                                    <label class="form-check-label" for="leite_semi25">Leite semidesnatado | 25ml</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite desnatado | 100ml</label>
+
+                            <!-- Iogurte -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="io100" id="iogurte100">
+                                    <label class="form-check-label" for="iogurte100">Iogurte | 100ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="io50" id="iogurte50">
+                                    <label class="form-check-label" for="iogurte50">Iogurte | 50ml</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="io25" id="iogurte25">
+                                    <label class="form-check-label" for="iogurte25">Iogurte | 25ml</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Leite desnatado | 50ml</label>
+
+                            <!-- Queijos frescos -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qf100" id="queijos_frescos100">
+                                    <label class="form-check-label" for="queijos_frescos100">Queijos frescos | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qf50" id="queijos_frescos50">
+                                    <label class="form-check-label" for="queijos_frescos50">Queijos frescos | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qf25" id="queijos_frescos25">
+                                    <label class="form-check-label" for="queijos_frescos25">Queijos frescos | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite desnatado | 25ml</label>
+
+                            <!-- Queijos maturados -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qm100" id="queijos_maturados100">
+                                    <label class="form-check-label" for="queijos_maturados100">Queijos maturados | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qm50" id="queijos_maturados50">
+                                    <label class="form-check-label" for="queijos_maturados50">Queijos maturados | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="qm25" id="queijos_maturados25">
+                                    <label class="form-check-label" for="queijos_maturados25">Queijos maturados | 25g</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite semidesnatado | 100ml</label>
+
+                            <!-- Manteiga -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ma100" id="manteiga100">
+                                    <label class="form-check-label" for="manteiga100">Manteiga | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ma50" id="manteiga50">
+                                    <label class="form-check-label" for="manteiga50">Manteiga | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ma25" id="manteiga25">
+                                    <label class="form-check-label" for="manteiga25">Manteiga | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Leite semidesnatado | 50ml</label>
+
+                            <!-- Leite condensado -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ld100" id="leite_condensado100">
+                                    <label class="form-check-label" for="leite_condensado100">Leite condensado | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ld50" id="leite_condensado50">
+                                    <label class="form-check-label" for="leite_condensado50">Leite condensado | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ld25" id="leite_condensado25">
+                                    <label class="form-check-label" for="leite_condensado25">Leite condensado | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite semidesnatado | 25ml</label>
+
+                            <!-- Creme de leite -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="cl100" id="creme_leite100">
+                                    <label class="form-check-label" for="creme_leite100">Creme de leite | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="cl50" id="creme_leite50">
+                                    <label class="form-check-label" for="creme_leite50">Creme de leite | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="cl25" id="creme_leite25">
+                                    <label class="form-check-label" for="creme_leite25">Creme de leite | 25g</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Iogurte | 100ml</label>
+
+                            <!-- Sorvete -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="so100" id="sorvete100">
+                                    <label class="form-check-label" for="sorvete100">Sorvete | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="so50" id="sorvete50">
+                                    <label class="form-check-label" for="sorvete50">Sorvete | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="so25" id="sorverte25">
+                                    <label class="form-check-label" for="sorverte25">Sorvete | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Iogurte | 50ml</label>
+
+                            <!-- Chocolate ao leite -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ch100" id="chocolate100">
+                                    <label class="form-check-label" for="chocolate100">Chocolate ao leite | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ch50" id="chocolate50">
+                                    <label class="form-check-label" for="chocolate50">Chocolate ao leite | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ch25" id="chocolate25">
+                                    <label class="form-check-label" for="chocolate25">Chocolate ao leite | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Iogurte | 25ml</label>
+
+                            <!-- Chocolate meio/amargo -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ca100" id="meio_amargo100">
+                                    <label class="form-check-label" for="meio_amargo100">Chocolate meio ou amargo | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ca50" id="meio_amargo50">
+                                    <label class="form-check-label" for="meio_amargo50">Chocolate meio ou amargo | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="ca25" id="meio_amargo25">
+                                    <label class="form-check-label" for="meio_amargo25">Chocolate meio ou amargo | 25g</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Queijos frescos | 100g</label>
+
+                            <!-- Margarina -->
+                            <div class="bg-light rounded h-5 p-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="mr100" id="margarina100">
+                                    <label class="form-check-label" for="margarina100">Margarina | 100g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="mr50" id="margarina50">
+                                    <label class="form-check-label" for="margarina50">Margarina | 50g</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="mr25" id="margarina25">
+                                    <label class="form-check-label" for="margarina25">Margarina | 25g</label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Queijos frescos | 50g</label>
+
+                            <div class="bg-light rounded h-5 p-4">
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                                <button type="reset" class="btn btn-danger">Limpar</button>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Queijos frescos | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Queijos maturados | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Queijos maturados | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Queijos maturados | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Manteiga | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Manteiga | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Manteiga | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite condensado | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Leite condensado | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Leite condensado | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Creme de leite | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Creme de leite | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Creme de leite | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Sorvete | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Sorvete | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Sorvete | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Chocolate ao leite | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Chocolate ao leite | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Chocolate ao leite | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Chocolate meio ou amargo | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Chocolate meio ou amargo | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Chocolate meio ou amargo | 25g</label>
-                            </div>
-                        </div>
-                        <div class="bg-light rounded h-5 p-4">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Margarina | 100g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                <label class="form-check-label" for="flexCheckChecked">Margarina | 50g</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">Margarina | 25g</label>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -271,7 +303,7 @@
     </div>
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/chart/chart.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -283,6 +315,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script type="module" src="./js/calculadora.js"></script>
 </body>
 
 </html>
